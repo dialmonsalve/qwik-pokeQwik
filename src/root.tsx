@@ -1,16 +1,16 @@
-import { component$ } from "@builder.io/qwik";
+import { component$ } from '@builder.io/qwik';
 import {
   QwikCityProvider,
   RouterOutlet,
   ServiceWorkerRegister,
-} from "@builder.io/qwik-city";
-import { RouterHead } from "./components/router-head/router-head";
+} from '@builder.io/qwik-city';
+import { RouterHead } from './components/shared/router-head/router-head';
 
-import "./global.css";
+import './global.css';
 
 export default component$(() => {
   /**
-   * The root of a QwikCity site always start with the <QwikCityProvider> component,
+   * The root of a QwikCity site always start with the <Qwik  "recommendations": ["dbaeumer.vscode-eslint", "unifiedjs.vscode-mdx"],CityProvider> component,
    * immediately followed by the document's <head> and <body>.
    *
    * Don't remove the `<head>` and `<body>` elements.
